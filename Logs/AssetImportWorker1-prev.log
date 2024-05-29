@@ -1,0 +1,401 @@
+Using pre-set license
+Built from '2023.2/china_unity/3f1' branch; Version is '2023.2.3f1c1 (ec8f9e319457) revision 15503262'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26120) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\2023.2.3f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity-Project/PlantsVSZombies
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63099
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Unity-Project/PlantsVSZombies
+D:/Unity-Project/PlantsVSZombies
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [101304] Host "[IP] 192.168.221.1 [Port] 0 [Flags] 2 [Guid] 3694548025 [EditorId] 3694548025 [Version] 1048832 [Id] WindowsEditor(7,TIDES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [101304] Host "[IP] 192.168.221.1 [Port] 0 [Flags] 2 [Guid] 3694548025 [EditorId] 3694548025 [Version] 1048832 [Id] WindowsEditor(7,TIDES) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 8.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.3f1c1 (ec8f9e319457)
+[Subsystems] Discovering subsystems at path D:/Unity/2023.2.3f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity-Project/PlantsVSZombies/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25e0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.5176
+Initialize mono
+Mono path[0] = 'D:/Unity/2023.2.3f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2023.2.3f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2023.2.3f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/2023.2.3f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.029207 seconds.
+- Loaded All Assemblies, in  0.630 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.451 seconds
+Domain Reload Profiling: 1081ms
+	BeginReloadAssembly (247ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (248ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (234ms)
+				TypeCache.ScanAssembly (217ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (451ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (386ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image D:\Unity-Project\PlantsVSZombies\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity-Project\PlantsVSZombies\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.253 seconds
+Refreshing native plugins compatible for Editor in 4.33 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.020 seconds
+Domain Reload Profiling: 2273ms
+	BeginReloadAssembly (466ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (683ms)
+		LoadAssemblies (707ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (128ms)
+			BuildScriptInfoCaches (29ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1022ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (775ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (664ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4173 unused Assets / (1.4 MB). Loaded Objects now: 4763.
+Memory consumption went from 130.8 MB to 129.4 MB.
+Total: 7.081300 ms (FindLiveObjects: 0.427400 ms CreateObjectMapping: 0.479100 ms MarkObjects: 4.247700 ms  DeleteObjects: 1.926200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 941634.062025 seconds.
+  path: Assets/Images/UI/blackBackground.jpeg
+  artifactKey: Guid(967ff1af9225d294a9e1cc8c18eaf763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/blackBackground.jpeg using Guid(967ff1af9225d294a9e1cc8c18eaf763) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c71a57137f786b971e9a0fcca4b1d4a') in 0.0957884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024221 seconds.
+  path: Assets/Images/Zombies/Zombie/Borm/BoomDie_6.png
+  artifactKey: Guid(788a8298ffe7ec1408a89517563c353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Zombies/Zombie/Borm/BoomDie_6.png using Guid(788a8298ffe7ec1408a89517563c353f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c3f8ed51d1301e00adf3c0ad53be0a7') in 0.0170177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017787 seconds.
+  path: Assets/Images/Zombies/Zombie/Borm/BoomDie_11.png
+  artifactKey: Guid(d7e583bc74c62754dae1813c397ec776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Zombies/Zombie/Borm/BoomDie_11.png using Guid(d7e583bc74c62754dae1813c397ec776) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74e14089ce42b1aa4ac70040336b0da1') in 0.0152413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024908 seconds.
+  path: Assets/Images/Zombies/Zombie/Borm/BoomDie_12.png
+  artifactKey: Guid(ba027e1c967d1084f98db222be2da7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Zombies/Zombie/Borm/BoomDie_12.png using Guid(ba027e1c967d1084f98db222be2da7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '943f0f2a5d5799c30616dba00bf0cc4e') in 0.016148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032679 seconds.
+  path: Assets/Images/Zombies/Zombie/Borm/BoomDie_18.png
+  artifactKey: Guid(cefb444f93a9fa649b43b449d36a05e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Zombies/Zombie/Borm/BoomDie_18.png using Guid(cefb444f93a9fa649b43b449d36a05e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6408ee02ce1208c36c662a8c5925cff6') in 0.0342973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Images/UI/btn_dialog_back_2.png
+  artifactKey: Guid(100ff4aed8c722649a37b8c9684775ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/btn_dialog_back_2.png using Guid(100ff4aed8c722649a37b8c9684775ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9377fff41bd796a39b3015fc9ed46f47') in 0.0295451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/Zombies/Zombie/Borm/BoomDie_16.png
+  artifactKey: Guid(24561643c546f8747a2a014e7d7c97da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Zombies/Zombie/Borm/BoomDie_16.png using Guid(24561643c546f8747a2a014e7d7c97da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5824498899df040c57174aea565efa64') in 0.0269701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Images/Zombies/Zombie/Borm/BoomDie_7.png
+  artifactKey: Guid(f0b11cfbc030362448ce8e7d490eabfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Zombies/Zombie/Borm/BoomDie_7.png using Guid(f0b11cfbc030362448ce8e7d490eabfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dd1903aa8d866b4a1d4adad1ab61174') in 0.0223637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Images/Zombies/Zombie/Borm/BoomDie_8.png
+  artifactKey: Guid(bb0d32e21b9e6af45baa6872d80c8d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Zombies/Zombie/Borm/BoomDie_8.png using Guid(bb0d32e21b9e6af45baa6872d80c8d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8ec71bd09798d6b2345475faf2fbb6e') in 0.0250642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Images/Zombies/Zombie/Borm/BoomDie_1.png
+  artifactKey: Guid(b33b83e7cad059d4f97568eb940b7a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Zombies/Zombie/Borm/BoomDie_1.png using Guid(b33b83e7cad059d4f97568eb940b7a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e94b20a976ed9658d0cdbc353f282da') in 0.0255143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Images/Zombies/Zombie/Borm/BoomDie_4.png
+  artifactKey: Guid(5f45c975c2d46374cb163e74aaa608c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Zombies/Zombie/Borm/BoomDie_4.png using Guid(5f45c975c2d46374cb163e74aaa608c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21f9bf77154f9f2a28df9ae7387339a5') in 0.0255013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Images/Zombies/Zombie/Borm/BoomDie_5.png
+  artifactKey: Guid(d00768f6b8745884d89e72acb54e3714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Zombies/Zombie/Borm/BoomDie_5.png using Guid(d00768f6b8745884d89e72acb54e3714) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fbf4ac5c6dfcb0188bfb97040d6e1d2a') in 0.0303438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Images/UI/btn_dialog_back.png
+  artifactKey: Guid(4ae75b7c10dd2594ca802b051164e725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/btn_dialog_back.png using Guid(4ae75b7c10dd2594ca802b051164e725) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a98ea74421a4b23bca611e54bfc21d1') in 0.0276931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Images/UI/btn_survival.png
+  artifactKey: Guid(6e7d648360d70e94b8ff7dbd296b44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/btn_survival.png using Guid(6e7d648360d70e94b8ff7dbd296b44df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '086503bf1956679428f26468a7bd989e') in 0.0351197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.682906 seconds.
+  path: Assets/Images/UI/Button1.png
+  artifactKey: Guid(6dcae497a4b16e04eb59769b9d6dfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/Button1.png using Guid(6dcae497a4b16e04eb59769b9d6dfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21a4811a055fef80773b0650c968fe45') in 0.0148744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.286088 seconds.
+  path: Assets/Images/Card/card_squash.png
+  artifactKey: Guid(9f526b9a97e2b8844b5b071a5ae67cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Card/card_squash.png using Guid(9f526b9a97e2b8844b5b071a5ae67cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '779d879d9057dfc058b3aab61295e15e') in 0.0190499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.563644 seconds.
+  path: Assets/Images/Plants/Repeater/Repeater_8.png
+  artifactKey: Guid(7ff1cabdcc74a724fa79b92c1dd18d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Plants/Repeater/Repeater_8.png using Guid(7ff1cabdcc74a724fa79b92c1dd18d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfae137c1bdf08b64d464704c086378b') in 0.0175919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/UI/SelectorScreenChallenges_32.png
+  artifactKey: Guid(9dd6cee4424140045afcbf813ea2a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/SelectorScreenChallenges_32.png using Guid(9dd6cee4424140045afcbf813ea2a1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5494e07403551009aeb379a1ec6ae162') in 0.0211514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Effect/SnowFlakes3.png
+  artifactKey: Guid(e8197bc0e4f814742890fc659164cdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Effect/SnowFlakes3.png using Guid(e8197bc0e4f814742890fc659164cdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cad73535bfa2826f691ba4caf6fe3ce1') in 0.0176904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Plants/SnowPea/SnowPea_12.png
+  artifactKey: Guid(a3ec00d85fad11645a477adbd7c04136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Plants/SnowPea/SnowPea_12.png using Guid(a3ec00d85fad11645a477adbd7c04136) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd06f45a2049d3cee9fd7aaf5e4921a32') in 0.0217417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/Effect/Soil.png
+  artifactKey: Guid(4bdb6ea0648663d4da472e16cf9620d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Effect/Soil.png using Guid(4bdb6ea0648663d4da472e16cf9620d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a77e705a649001ebd5a99d58bff42568') in 0.031646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Images/Plants/SnowPea/SnowPea_3.png
+  artifactKey: Guid(d10c19d5ce6c7f8478122210d63683c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Plants/SnowPea/SnowPea_3.png using Guid(d10c19d5ce6c7f8478122210d63683c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09bcfd4551a607909214f58cb8f5661e') in 0.0182172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Images/Plants/SnowPea/SnowPea_11.png
+  artifactKey: Guid(346bce0c11a93d645ba60982371b0c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Plants/SnowPea/SnowPea_11.png using Guid(346bce0c11a93d645ba60982371b0c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c533e9a59cc611ec1d86da6d84a54e3') in 0.0136035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/Effect/ShroomBulletHit.png
+  artifactKey: Guid(c9b282d859f472f4abbd80dbe2ec39ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Effect/ShroomBulletHit.png using Guid(c9b282d859f472f4abbd80dbe2ec39ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e639f3b9981b1843bb9299b047c203d9') in 0.0179602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Images/Plants/SnowPea/SnowPea_8.png
+  artifactKey: Guid(f34cb3b6eb9034e40b45ac192ad0595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/Plants/SnowPea/SnowPea_8.png using Guid(f34cb3b6eb9034e40b45ac192ad0595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6aa3947473926cd9b9746f59fa30e0f') in 0.0156992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
